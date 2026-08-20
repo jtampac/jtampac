@@ -6,73 +6,150 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Junmarvi Matrix GitHub Profile</title>
+  <title id="title">Junmarvi Tech Matrix GitHub Profile</title>
   <desc id="desc">
-    Matrix-inspired profile showing system status, active constructs and core directives.
+    Tech-inspired profile showing system status, active constructs and core directives.
   </desc>
 
-  <rect width="1200" height="1080" fill="#000000"/>
+  <defs>
+    <linearGradient id="bgBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05090c"/>
+      <stop offset="50%" stop-color="#020406"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
 
-  <!-- Border -->
-<defs>
-  <linearGradient id="bgGlow" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#031b08"/>
-    <stop offset="45%" stop-color="#021406"/>
-    <stop offset="100%" stop-color="#000000"/>
-  </linearGradient>
+    <pattern id="chipPattern" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect width="48" height="48" fill="#05080b"/>
+      <rect x="0" y="0" width="24" height="24" fill="#0a0f13"/>
+      <rect x="24" y="24" width="24" height="24" fill="#0a0f13"/>
+    </pattern>
 
-  <pattern id="matrixPattern" width="320" height="140" patternUnits="userSpaceOnUse">
-    <rect width="320" height="140" fill="transparent"/>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-    <g
-      font-family="Consolas, Monaco, 'Courier New', monospace"
-      font-size="18"
-      font-weight="700"
-      fill="#00ff41"
-      opacity="0.78"
-    >
-      <text x="0" y="24">01001100 01010011 00110001 00110000 00110000 00110001</text>
-      <text x="0" y="48">00110001 00110000 00110001 00110000 00110001 00110000</text>
-      <text x="0" y="72">00110000 00110001 00110000 00110000 00110001 00110001</text>
-      <text x="0" y="96">00110001 00110001 00110000 00110001 00110000 00110000</text>
-      <text x="0" y="120">00110000 00110001 00110001 00110000 00110001 00110000</text>
+    <linearGradient id="traceGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#5cf2ff"/>
+    </linearGradient>
+
+    <linearGradient id="traceGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5cf2ff"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1080" fill="url(#bgBase)"/>
+  <rect width="1200" height="1080" fill="url(#chipPattern)" opacity="0.55"/>
+
+  <!-- outer border -->
+  <rect
+    x="2"
+    y="2"
+    width="1196"
+    height="1076"
+    rx="12"
+    fill="none"
+    stroke="#00ff41"
+    stroke-width="2"
+  />
+
+  <!-- circuit background -->
+  <g opacity="0.9" filter="url(#glowCyan)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- center spine -->
+    <line x1="600" y1="130" x2="600" y2="930" stroke="url(#traceGrad2)" stroke-width="3"/>
+    <circle cx="600" cy="230" r="5" fill="#5cf2ff"/>
+    <circle cx="600" cy="340" r="5" fill="#00ff88"/>
+    <circle cx="600" cy="470" r="5" fill="#5cf2ff"/>
+    <circle cx="600" cy="610" r="5" fill="#00ff88"/>
+    <circle cx="600" cy="760" r="5" fill="#5cf2ff"/>
+    <circle cx="600" cy="880" r="5" fill="#00ff88"/>
+
+    <!-- left traces -->
+    <path d="M600 240 H500 V190 H350 V150 H210" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 290 H520 V260 H390 V230 H250" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+    <path d="M600 360 H470 V390 H310 V430 H180" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 430 H530 V470 H430 V520 H280 V565 H180" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+    <path d="M600 540 H500 V580 H380 V640 H230" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 690 H450 V730 H300 V790 H170" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+
+    <!-- right traces -->
+    <path d="M600 240 H700 V190 H850 V150 H990" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 290 H680 V260 H810 V230 H950" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+    <path d="M600 360 H730 V390 H890 V430 H1020" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 430 H670 V470 H770 V520 H920 V565 H1020" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+    <path d="M600 540 H700 V580 H820 V640 H970" fill="none" stroke="url(#traceGrad1)" stroke-width="3"/>
+    <path d="M600 690 H750 V730 H900 V790 H1030" fill="none" stroke="url(#traceGrad1)" stroke-width="2.5"/>
+
+    <!-- vertical accents -->
+    <line x1="260" y1="150" x2="260" y2="330" stroke="url(#traceGrad2)" stroke-width="2"/>
+    <line x1="340" y1="260" x2="340" y2="470" stroke="url(#traceGrad2)" stroke-width="2"/>
+    <line x1="920" y1="150" x2="920" y2="330" stroke="url(#traceGrad2)" stroke-width="2"/>
+    <line x1="840" y1="260" x2="840" y2="470" stroke="url(#traceGrad2)" stroke-width="2"/>
+
+    <!-- nodes cyan -->
+    <g fill="#5cf2ff">
+      <circle cx="500" cy="240" r="4"/>
+      <circle cx="350" cy="190" r="4"/>
+      <circle cx="520" cy="290" r="4"/>
+      <circle cx="470" cy="360" r="4"/>
+      <circle cx="430" cy="470" r="4"/>
+      <circle cx="380" cy="640" r="4"/>
+      <circle cx="700" cy="240" r="4"/>
+      <circle cx="850" cy="190" r="4"/>
+      <circle cx="680" cy="290" r="4"/>
+      <circle cx="730" cy="360" r="4"/>
+      <circle cx="770" cy="520" r="4"/>
+      <circle cx="820" cy="640" r="4"/>
     </g>
 
-    <g
-      font-family="Consolas, Monaco, 'Courier New', monospace"
-      font-size="18"
-      font-weight="700"
-      fill="#6dff8a"
-      opacity="0.24"
-    >
-      <text x="18" y="36">11001001 01001010 00110101 01001010 00110100</text>
-      <text x="18" y="84">01010101 00110110 01001001 00110100 01001010</text>
-      <text x="18" y="132">00110100 00110101 01001010 00110101 01001001</text>
+    <!-- nodes green -->
+    <g fill="#00ff88">
+      <circle cx="210" cy="150" r="4"/>
+      <circle cx="250" cy="230" r="4"/>
+      <circle cx="180" cy="430" r="4"/>
+      <circle cx="180" cy="565" r="4"/>
+      <circle cx="170" cy="790" r="4"/>
+      <circle cx="990" cy="150" r="4"/>
+      <circle cx="950" cy="230" r="4"/>
+      <circle cx="1020" cy="430" r="4"/>
+      <circle cx="1020" cy="565" r="4"/>
+      <circle cx="1030" cy="790" r="4"/>
     </g>
-  </pattern>
+  </g>
 
-  <linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#000000" stop-opacity="0.18"/>
-    <stop offset="100%" stop-color="#000000" stop-opacity="0.38"/>
-  </linearGradient>
-</defs>
+  <!-- readable panels -->
+  <rect x="55" y="120" width="1090" height="190" rx="12" fill="#000000" fill-opacity="0.46"/>
+  <rect x="55" y="338" width="1090" height="360" rx="12" fill="#000000" fill-opacity="0.50"/>
+  <rect x="55" y="740" width="1090" height="290" rx="12" fill="#000000" fill-opacity="0.50"/>
 
-<rect width="1200" height="1080" fill="url(#bgGlow)"/>
-<rect width="1200" height="1080" fill="url(#matrixPattern)"/>
+  <!-- subtle code marks -->
+  <g
+    font-family="Consolas, Monaco, 'Courier New', monospace"
+    font-size="11"
+    fill="#0c6d34"
+    opacity="0.55"
+  >
+    <text x="72" y="150">01010100 01000101 01000011 01001000 00101110 01010011 01010100 01000001 01000011 01001011</text>
+    <text x="855" y="172">01101010 01110100 01100001 01101101 01110000 01100001 01100011</text>
+    <text x="78" y="1010">00110010 00110000 00110010 00110110 00101110 01010011 01011001 01010011</text>
+    <text x="915" y="1010">01010110 01000101 01010010 01001001 01000110 01011001</text>
+  </g>
 
-<!-- soft dark overlay para readable gihapon ang text -->
-<rect width="1200" height="1080" fill="url(#panelFade)"/>
-
-  <!-- Header -->
+  <!-- header -->
   <g font-family="Consolas, Monaco, 'Courier New', monospace">
     <text
       x="600"
       y="95"
       text-anchor="middle"
-      font-size="52"
+      font-size="42"
       font-weight="700"
-      fill="#00ff41"
-      letter-spacing="8"
+      fill="#00ff88"
+      letter-spacing="5"
     >
       JUNMARVI
     </text>
@@ -85,6 +162,7 @@
       font-weight="700"
       fill="#ffffff"
     >
+      JUNMARVI
     </text>
 
     <text
@@ -92,7 +170,7 @@
       y="172"
       text-anchor="middle"
       font-size="16"
-      fill="#00ff41"
+      fill="#5cf2ff"
     >
       jtampac
     </text>
@@ -128,7 +206,7 @@
     </text>
   </g>
 
-  <!-- Divider -->
+  <!-- divider -->
   <line
     x1="55"
     y1="320"
@@ -138,7 +216,7 @@
     stroke-width="2"
   />
 
-  <!-- System Status -->
+  <!-- system status -->
   <g font-family="Consolas, Monaco, 'Courier New', monospace">
     <text
       x="70"
@@ -185,7 +263,7 @@
     </g>
   </g>
 
-  <!-- Divider -->
+  <!-- divider -->
   <line
     x1="55"
     y1="720"
@@ -195,10 +273,9 @@
     stroke-width="2"
   />
 
-  <!-- Two columns -->
+  <!-- lower section -->
   <g font-family="Consolas, Monaco, 'Courier New', monospace">
-
-    <!-- Active Constructs -->
+    <!-- active constructs -->
     <text
       x="70"
       y="770"
@@ -246,7 +323,7 @@
       </text>
     </g>
 
-    <!-- Vertical divider -->
+    <!-- vertical divider -->
     <line
       x1="600"
       y1="755"
@@ -256,7 +333,7 @@
       stroke-width="2"
     />
 
-    <!-- Core Directives -->
+    <!-- core directives -->
     <text
       x="640"
       y="770"
@@ -305,6 +382,6 @@
     </g>
   </g>
 
-  <!-- Terminal cursor -->
+  <!-- terminal cursor -->
   <rect x="1110" y="1035" width="14" height="24" fill="#00ff41"/>
 </svg>

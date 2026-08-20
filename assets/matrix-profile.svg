@@ -14,29 +14,54 @@
   <rect width="1200" height="1080" fill="#000000"/>
 
   <!-- Border -->
-  <rect
-    x="2"
-    y="2"
-    width="1196"
-    height="1076"
-    rx="12"
-    fill="none"
-    stroke="#00ff41"
-    stroke-width="2"
-  />
+<defs>
+  <linearGradient id="bgGlow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#031b08"/>
+    <stop offset="45%" stop-color="#021406"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </linearGradient>
 
-  <!-- Subtle Matrix background -->
-  <g
-    font-family="Consolas, Monaco, 'Courier New', monospace"
-    font-size="15"
-    fill="#003b12"
-    opacity="0.55"
-  >
-    <text x="35" y="45">01001101 01000001 01010100 01010010 01001001 01011000</text>
-    <text x="760" y="80">10110101 00101101 11010101</text>
-    <text x="60" y="1040">00110110 10101100 01011001 01100101</text>
-    <text x="800" y="1020">01010111 01000001 01001011 01000101</text>
-  </g>
+  <pattern id="matrixPattern" width="320" height="140" patternUnits="userSpaceOnUse">
+    <rect width="320" height="140" fill="transparent"/>
+
+    <g
+      font-family="Consolas, Monaco, 'Courier New', monospace"
+      font-size="18"
+      font-weight="700"
+      fill="#00ff41"
+      opacity="0.78"
+    >
+      <text x="0" y="24">01001100 01010011 00110001 00110000 00110000 00110001</text>
+      <text x="0" y="48">00110001 00110000 00110001 00110000 00110001 00110000</text>
+      <text x="0" y="72">00110000 00110001 00110000 00110000 00110001 00110001</text>
+      <text x="0" y="96">00110001 00110001 00110000 00110001 00110000 00110000</text>
+      <text x="0" y="120">00110000 00110001 00110001 00110000 00110001 00110000</text>
+    </g>
+
+    <g
+      font-family="Consolas, Monaco, 'Courier New', monospace"
+      font-size="18"
+      font-weight="700"
+      fill="#6dff8a"
+      opacity="0.24"
+    >
+      <text x="18" y="36">11001001 01001010 00110101 01001010 00110100</text>
+      <text x="18" y="84">01010101 00110110 01001001 00110100 01001010</text>
+      <text x="18" y="132">00110100 00110101 01001010 00110101 01001001</text>
+    </g>
+  </pattern>
+
+  <linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.38"/>
+  </linearGradient>
+</defs>
+
+<rect width="1200" height="1080" fill="url(#bgGlow)"/>
+<rect width="1200" height="1080" fill="url(#matrixPattern)"/>
+
+<!-- soft dark overlay para readable gihapon ang text -->
+<rect width="1200" height="1080" fill="url(#panelFade)"/>
 
   <!-- Header -->
   <g font-family="Consolas, Monaco, 'Courier New', monospace">

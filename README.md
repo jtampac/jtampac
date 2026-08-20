@@ -13,9 +13,6 @@
 
 ---
 
-**SYSTEM LOG**
-
-
 **SYSTEM STATUS**
 - Identity: Junmarvi Tampac
 - Location: United Arab Emirates

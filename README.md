@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/matrix-profile.svg" width="100%" alt="Junmarvi Matrix Profile">
+<img src="https://raw.githubusercontent.com/jtampac/jtampac/main/assets/matrix-profile.svg?v=4" width="100%" alt="Junmarvi Matrix Profile">
 
 <br>
 

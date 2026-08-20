@@ -52,8 +52,6 @@
 **It is all around us.**  
 **Even now, in this very room.**
 
-<br>
-
 <br><br>
 
 `> Knock, knock, Neo.`  

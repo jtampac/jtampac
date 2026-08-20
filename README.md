@@ -1,60 +1,23 @@
 <div align="center">
 
-# MATRIX
+<img src="./assets/matrix-profile.svg" width="100%" alt="Junmarvi Matrix Profile">
 
-**JUNMARVI**  
-`jtampac`
+<br>
 
-`> Wake up, Neo...`  
-`> The Matrix has you.`  
-`> Follow the white rabbit.`
+<img
+  src="https://github-readme-stats-delta-ivory-88.vercel.app/api?username=jtampac&show_icons=true&count_private=true&bg_color=000000&title_color=00ff41&icon_color=00ff41&text_color=00ff41&border_color=00ff41&v=3"
+  height="180"
+  alt="Junmarvi GitHub Stats"
+/>
 
-</div>
+<img
+  src="https://github-readme-stats-delta-ivory-88.vercel.app/api/top-langs/?username=jtampac&layout=compact&langs_count=8&bg_color=000000&title_color=00ff41&text_color=00ff41&border_color=00ff41&v=3"
+  height="180"
+  alt="Junmarvi Top Languages"
+/>
 
----
+<br><br>
 
-**SYSTEM STATUS**
-- Identity: Junmarvi Tampac
-- Location: United Arab Emirates
-- Host: junmarvi.com
-- Kernel: AI Application Assurance + Vibe Coding
-- Shell: Terminal + Local LLMs + Multi-agent
-- Resolution: Evidence before claims
-- Uptime: Building systems that refuse to lie
-- Threat Level: HIGH (Fake dashboards detected)
-
-**ACTIVE CONSTRUCTS**
-- Junmarvi Application Assurance Platform
-- Sentinel (trust & security layer)
-- Family Wallet
-- Learning Hall PH
-- ICM Cloud Multiplayer Workbench
-- junmarvi-workspace-starter
-- Local AI media archives + Synology self-hosting
-
-**CORE DIRECTIVES**
-- Evidence before claims
-- Deterministic checks before AI interpretation
-- AI may assist but cannot certify itself
-- No fake dashboards. No fake confidence.
-- Every decision must have an owner
-- Every fix must be verified
-- There is no spoon. Only verifiable systems.
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats-delta-ivory-88.vercel.app/api?username=jtampac&show_icons=true&bg_color=000000&title_color=00ff41&icon_color=00ff41&text_color=00ff41&border_color=00ff41&v=2" height="165">
-
-<img src="https://github-readme-stats-delta-ivory-88.vercel.app/api/top-langs/?username=jtampac&layout=compact&langs_count=8&bg_color=000000&title_color=00ff41&text_color=00ff41&border_color=00ff41&v=2" height="165">
-
-</div>
-
-`> Knock, knock, Neo.`  
-`> Do you want to know what it is?`
-
-`Follow the white rabbit...`  
-`or just ship something that actually works.`
+<img src="./assets/matrix-footer.svg" width="100%" alt="Matrix Footer">
 
 </div>

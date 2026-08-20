@@ -7,7 +7,7 @@
 ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
 
 **JUNMARVI**  
-`jtampac`  
+`jtampac`
 
 `> Wake up, Neo...`  
 `> The Matrix has you.`  
@@ -25,6 +25,7 @@
 > Injecting verified systems...
 > Loading Evidence Kernel...
 > Status: ONLINE
+
 ┌─ SYSTEM STATUS ────────────────────────────────────────────────────────────┐
 │  Identity     : Junmarvi Tampac                                            │
 │  Location     : United Arab Emirates                                       │

@@ -1,98 +1,286 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="330"
-  viewBox="0 0 1200 330"
+  height="1080"
+  viewBox="0 0 1200 1080"
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Matrix Footer</title>
-  <desc id="desc">Matrix-inspired closing terminal message.</desc>
+  <title id="title">Junmarvi Matrix GitHub Profile</title>
+  <desc id="desc">
+    Matrix-inspired profile showing system status, active constructs and core directives.
+  </desc>
 
-  <rect width="1200" height="330" fill="#000000"/>
+  <rect width="1200" height="1080" fill="#000000"/>
 
+  <!-- Border -->
   <rect
     x="2"
     y="2"
     width="1196"
-    height="326"
+    height="1076"
     rx="12"
     fill="none"
     stroke="#00ff41"
     stroke-width="2"
   />
 
+  <!-- Subtle Matrix background -->
+  <g
+    font-family="Consolas, Monaco, 'Courier New', monospace"
+    font-size="15"
+    fill="#003b12"
+    opacity="0.55"
+  >
+    <text x="35" y="45">01001101 01000001 01010100 01010010 01001001 01011000</text>
+    <text x="760" y="80">10110101 00101101 11010101</text>
+    <text x="60" y="1040">00110110 10101100 01011001 01100101</text>
+    <text x="800" y="1020">01010111 01000001 01001011 01000101</text>
+  </g>
+
+  <!-- Header -->
+  <g font-family="Consolas, Monaco, 'Courier New', monospace">
+    <text
+      x="600"
+      y="95"
+      text-anchor="middle"
+      font-size="52"
+      font-weight="700"
+      fill="#00ff41"
+      letter-spacing="8"
+    >
+      MATRIX
+    </text>
+
+    <text
+      x="600"
+      y="140"
+      text-anchor="middle"
+      font-size="20"
+      font-weight="700"
+      fill="#ffffff"
+    >
+      JUNMARVI
+    </text>
+
+    <text
+      x="600"
+      y="172"
+      text-anchor="middle"
+      font-size="16"
+      fill="#00ff41"
+    >
+      jtampac
+    </text>
+
+    <text
+      x="600"
+      y="220"
+      text-anchor="middle"
+      font-size="16"
+      fill="#9affb5"
+    >
+      &gt; Wake up, Neo...
+    </text>
+
+    <text
+      x="600"
+      y="248"
+      text-anchor="middle"
+      font-size="16"
+      fill="#9affb5"
+    >
+      &gt; The Matrix has you.
+    </text>
+
+    <text
+      x="600"
+      y="276"
+      text-anchor="middle"
+      font-size="16"
+      fill="#9affb5"
+    >
+      &gt; Follow the white rabbit.
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line
+    x1="55"
+    y1="320"
+    x2="1145"
+    y2="320"
+    stroke="#00ff41"
+    stroke-width="2"
+  />
+
+  <!-- System Status -->
+  <g font-family="Consolas, Monaco, 'Courier New', monospace">
+    <text
+      x="70"
+      y="370"
+      font-size="23"
+      font-weight="700"
+      fill="#00ff41"
+    >
+      [ SYSTEM STATUS ]
+    </text>
+
+    <g font-size="18">
+      <text x="90" y="415" fill="#00ff41">&gt;</text>
+      <text x="120" y="415" fill="#8affaa">IDENTITY</text>
+      <text x="320" y="415" fill="#ffffff">Junmarvi Tampac</text>
+
+      <text x="90" y="453" fill="#00ff41">&gt;</text>
+      <text x="120" y="453" fill="#8affaa">LOCATION</text>
+      <text x="320" y="453" fill="#ffffff">United Arab Emirates</text>
+
+      <text x="90" y="491" fill="#00ff41">&gt;</text>
+      <text x="120" y="491" fill="#8affaa">HOST</text>
+      <text x="320" y="491" fill="#ffffff">junmarvi.com</text>
+
+      <text x="90" y="529" fill="#00ff41">&gt;</text>
+      <text x="120" y="529" fill="#8affaa">KERNEL</text>
+      <text x="320" y="529" fill="#ffffff">AI Application Assurance + Vibe Coding</text>
+
+      <text x="90" y="567" fill="#00ff41">&gt;</text>
+      <text x="120" y="567" fill="#8affaa">SHELL</text>
+      <text x="320" y="567" fill="#ffffff">Terminal + Local LLMs + Multi-agent</text>
+
+      <text x="90" y="605" fill="#00ff41">&gt;</text>
+      <text x="120" y="605" fill="#8affaa">RESOLUTION</text>
+      <text x="320" y="605" fill="#ffffff">Evidence before claims</text>
+
+      <text x="90" y="643" fill="#00ff41">&gt;</text>
+      <text x="120" y="643" fill="#8affaa">UPTIME</text>
+      <text x="320" y="643" fill="#ffffff">Building systems that refuse to lie</text>
+
+      <text x="90" y="681" fill="#00ff41">&gt;</text>
+      <text x="120" y="681" fill="#8affaa">THREAT LEVEL</text>
+      <text x="320" y="681" fill="#00ff41">HIGH — fake dashboards detected</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line
+    x1="55"
+    y1="720"
+    x2="1145"
+    y2="720"
+    stroke="#003f16"
+    stroke-width="2"
+  />
+
+  <!-- Two columns -->
   <g font-family="Consolas, Monaco, 'Courier New', monospace">
 
+    <!-- Active Constructs -->
     <text
-      x="600"
-      y="70"
-      text-anchor="middle"
-      font-size="18"
-      fill="#ffffff"
+      x="70"
+      y="770"
+      font-size="23"
+      font-weight="700"
+      fill="#00ff41"
     >
-      The Matrix is everywhere.
+      [ ACTIVE CONSTRUCTS ]
     </text>
 
-    <text
-      x="600"
-      y="102"
-      text-anchor="middle"
-      font-size="18"
-      fill="#ffffff"
-    >
-      It is all around us.
-    </text>
+    <g font-size="16" fill="#ffffff">
+      <text x="90" y="812">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Junmarvi Application Assurance Platform</tspan>
+      </text>
 
-    <text
-      x="600"
-      y="134"
-      text-anchor="middle"
-      font-size="18"
-      fill="#ffffff"
-    >
-      Even now, in this very room.
-    </text>
+      <text x="90" y="844">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Sentinel — trust &amp; security layer</tspan>
+      </text>
 
+      <text x="90" y="876">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Family Wallet</tspan>
+      </text>
+
+      <text x="90" y="908">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Learning Hall PH</tspan>
+      </text>
+
+      <text x="90" y="940">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">ICM Cloud Multiplayer Workbench</tspan>
+      </text>
+
+      <text x="90" y="972">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">junmarvi-workspace-starter</tspan>
+      </text>
+
+      <text x="90" y="1004">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Local AI media archives + Synology</tspan>
+      </text>
+    </g>
+
+    <!-- Vertical divider -->
     <line
-      x1="340"
-      y1="170"
-      x2="860"
-      y2="170"
+      x1="600"
+      y1="755"
+      x2="600"
+      y2="1025"
       stroke="#003f16"
       stroke-width="2"
     />
 
+    <!-- Core Directives -->
     <text
-      x="600"
-      y="215"
-      text-anchor="middle"
-      font-size="17"
+      x="640"
+      y="770"
+      font-size="23"
+      font-weight="700"
       fill="#00ff41"
     >
-      &gt; Knock, knock, Neo.
+      [ CORE DIRECTIVES ]
     </text>
 
-    <text
-      x="600"
-      y="246"
-      text-anchor="middle"
-      font-size="17"
-      fill="#00ff41"
-    >
-      &gt; Do you want to know what it is?
-    </text>
+    <g font-size="16" fill="#ffffff">
+      <text x="660" y="812">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Evidence before claims</tspan>
+      </text>
 
-    <text
-      x="600"
-      y="288"
-      text-anchor="middle"
-      font-size="16"
-      fill="#8affaa"
-    >
-      Follow the white rabbit... or just ship something that actually works.
-    </text>
+      <text x="660" y="844">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Deterministic checks before AI interpretation</tspan>
+      </text>
+
+      <text x="660" y="876">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">AI may assist but cannot certify itself</tspan>
+      </text>
+
+      <text x="660" y="908">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">No fake dashboards. No fake confidence.</tspan>
+      </text>
+
+      <text x="660" y="940">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Every decision must have an owner</tspan>
+      </text>
+
+      <text x="660" y="972">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">Every fix must be verified</tspan>
+      </text>
+
+      <text x="660" y="1004">
+        <tspan fill="#00ff41">&gt;</tspan>
+        <tspan dx="12">There is no spoon. Only verifiable systems.</tspan>
+      </text>
+    </g>
   </g>
 
-  <rect x="1060" y="278" width="13" height="22" fill="#00ff41"/>
+  <!-- Terminal cursor -->
+  <rect x="1110" y="1035" width="14" height="24" fill="#00ff41"/>
 </svg>

@@ -45,11 +45,9 @@
 
 <div align="center">
 
-**The Matrix is everywhere.**  
-**It is all around us.**  
-**Even now, in this very room.**
+![GitHub Streak](https://streak-stats.demolab.com?user=jtampac&theme=matrix&hide_border=true)
 
-<br><br>
+</div>
 
 `> Knock, knock, Neo.`  
 `> Do you want to know what it is?`
